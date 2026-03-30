@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gupta Store 🕉️</title>
+        <link src="stylesheet" href="{{ url_for('static',filename='professional.css')}}">
+    </head>
+    <body>
+
+        <h1>Welcome to Gupta Store Webpage</h1>
+         <div class="parent">
+             <form method="POST">
+                 <input type="text" name="user_input" placeholder="Enter Price Here">
+                 <input type="text" name="user_input2" placeholder="Enter Quantity Here">
+                 <button value="submit">Submit</button>
+                 <h2> {{ total_html }}</h2>
+
+
+             </form>
+
+         </div>
+
+    </body>
+</html>
